@@ -19,6 +19,10 @@
 </head>
 <body class="bg-0">
 
+    <!-- WPP FLOAT -->
+    <?php include_once  __DIR__ .'/modulos/wpp-float/index.php'; ?>
+    <!-- WPP FLOAT -->
+
     <!-- NAVEGAÇÃO -->
     <?php include_once  __DIR__ .'/modulos/navegacao/index.php'; ?>
     <!-- NAVEGAÇÃO -->
