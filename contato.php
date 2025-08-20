@@ -31,6 +31,13 @@
     <?php include_once  __DIR__ .'/modulos/banner-contato/index.php'; ?>
     <!-- BANNER CONTATO -->
 
+    <!-- CONTENT CONTATO -->
+    <?php include_once  __DIR__ .'/modulos/content-contato/index.php'; ?>
+    <!-- CONTENT CONTATO -->
+
+    <!-- FOOTER -->
+    <?php include_once  __DIR__ .'/modulos/footer/index.php'; ?>
+    <!-- FOOTER -->
 
 
 
