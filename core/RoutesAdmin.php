@@ -4,7 +4,7 @@ namespace Core;
 
 class RoutesAdmin {
     private static $routes = [
-        '/admin/dashboard'   => 'Contatos | Endereço',
+        '/admin/dashboard'   => 'Contatos',
         '/admin/banners'     => 'Banners'
     ];
 

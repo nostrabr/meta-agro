@@ -11,7 +11,7 @@
 </style>
 
 
-<p class="mb-5 small">Nesta sessão você pode atualizar os <strong>dados</strong> de <strong>contatos</strong> e <strong>endereço</strong> do seu site!</p>
+<p class="mb-5 small">Nesta sessão você pode atualizar os <strong>dados</strong> de <strong>contatos</strong> do seu site!</p>
 
 <!-- contatos e redes sociais -->
 <form onsubmit="loading()" action="modulos-admin/contents/dashboard/php/atualizar-contatos.php" method="post" class="row mb-5 pb-5 border-bottom">
@@ -21,28 +21,13 @@
     </div>
 
     <div class="mb-4 col-12 col-lg-6">
-        <label for="@_instagram" class="small">@ do instagram*</label>
-        <input class="form-control" value="<?= $contatos->_instagram; ?>" type="text" required name="@_instagram" id="@_instagram">
-    </div>
-
-    <div class="mb-4 col-12 col-lg-6">
         <label for="facebook" class="small">Facebook*</label>
         <input class="form-control" value="<?= $contatos->facebook; ?>" type="text" required name="facebook" id="facebook">
     </div>
 
     <div class="mb-4 col-12 col-lg-6">
-        <label for="@_facebook" class="small">@ do facebook*</label>
-        <input class="form-control" value="<?= $contatos->_facebook; ?>" type="text" required name="@_facebook" id="@_facebook">
-    </div>
-
-    <div class="mb-4 col-12 col-lg-6">
-        <label for="linkedin" class="small">LinkedIn*</label>
+        <label for="linkedin" class="small">Youtube*</label>
         <input class="form-control" type="text" value="<?= $contatos->linkedin; ?>" required name="linkedin" id="linkedin">
-    </div>
-
-    <div class="mb-4 col-12 col-lg-6">
-        <label for="@_linkedin" class="small">@ do LinkedIn*</label>
-        <input class="form-control" type="text" value="<?= $contatos->_linkedin; ?>" required name="@_linkedin" id="@_linkedin">
     </div>
 
     <div class="mb-4 col-12 col-lg-6">
@@ -71,7 +56,7 @@
 
 
 <!-- endereço -->
-<form onsubmit="loading()" action="modulos-admin/contents/dashboard/php/atualizar-endereco.php" method="post" class="row mb-5">
+<form class="d-none" onsubmit="loading()" action="modulos-admin/contents/dashboard/php/atualizar-endereco.php" method="post">
     <div class="mb-4 col-12">
         <label for="endereco" class="small">Endereço*</label>
         <input class="form-control text-capitalize" value="<?= $endereco->endereco; ?>" type="text" required name="endereco" id="endereco">

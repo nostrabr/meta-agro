@@ -23,6 +23,6 @@ class RoutesSite {
             return 'active-link';
         }
         
-        return strpos($_SERVER['REQUEST_URI'], $pagina) !== false ? 'active-link' : '';
+        return strpos($_SERVER['REQUEST_URI'], $pagina) !== false ? 'active-link' : 'text-white';
     }
 }

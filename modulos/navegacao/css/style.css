@@ -1,0 +1,21 @@
+/* Estilos para o módulo navegacao */
+
+.logo-menu{
+    width: 180px;
+}
+
+#menu-mobile{
+    height: 0vh;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    z-index: 10 !important;
+}
+
+.dropdown-item:hover {
+    background-color: transparent !important; 
+    color: white !important; 
+    opacity: .7 !important;
+    text-decoration: none !important; 
+}

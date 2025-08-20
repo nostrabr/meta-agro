@@ -1,0 +1,1 @@
+[2025-08-20 21:43:13] [ERROR]: Erro ao atualizar o banner: SQLSTATE[HY000]: General error: 1 no such column: banner_contatos_desktop (SQL: update "banners" set "banner_contatos_desktop" = upload-512e31.webp, "banner_contatos_mobile" = upload-086a50.webp where "idbanners" = 1)

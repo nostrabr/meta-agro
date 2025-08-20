@@ -4,10 +4,6 @@
     // *** buscar contatos
     use Repositories\ContatosRepository;
     $contatos = ContatosRepository::getContatos();
-
-    // *** buscar banners
-    use Repositories\BannersRepository;
-    $banners = BannersRepository::getBanners();
 ?>
 
 <!DOCTYPE html>
@@ -22,26 +18,6 @@
     <!-- NAVEGAÇÃO -->
     <?php include_once  __DIR__ .'/modulos/navegacao/index.php'; ?>
     <!-- NAVEGAÇÃO -->
-
-    <!-- BANNER INICIAL -->
-    <?php include_once  __DIR__ .'/modulos/banner-inicial/index.php'; ?>
-    <!-- BANNER INICIAL -->
-
-    <!-- SOBRE HOME -->
-    <?php include_once  __DIR__ .'/modulos/sobre-home/index.php'; ?>
-    <!-- SOBRE HOME -->
-
-    <!-- SOLUÇÕES -->
-    <?php include_once  __DIR__ .'/modulos/solucoes-home/index.php'; ?>
-    <!-- SOLUÇÕES -->
-     
-    <!-- CTA -->
-    <?php include_once  __DIR__ .'/modulos/cta/index.php'; ?>
-    <!-- CTA -->
-
-    <!-- FOOTER -->
-    <?php include_once  __DIR__ .'/modulos/footer/index.php'; ?>
-    <!-- FOOTER -->
 
 
 
