@@ -31,6 +31,14 @@
     <?php include_once  __DIR__ .'/modulos/banner-sobre/index.php'; ?>
     <!-- BANNER SOBRE -->
 
+    <!-- META AGRO SOBRE -->
+    <?php include_once  __DIR__ .'/modulos/meta-agro-sobre/index.php'; ?>
+    <!-- META AGRO SOBRE -->
+
+    <!-- CONTENT SOBRE -->
+    <?php include_once  __DIR__ .'/modulos/content-sobre/index.php'; ?>
+    <!-- CONTENT SOBRE -->
+
     <!-- CTA -->
     <?php include_once  __DIR__ .'/modulos/cta/index.php'; ?>
     <!-- CTA -->
