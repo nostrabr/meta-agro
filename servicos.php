@@ -31,6 +31,14 @@
     <?php include_once  __DIR__ .'/modulos/banner-servicos/index.php'; ?>
     <!-- BANNER SERVIÇOS -->
 
+    <!-- CONTENT 1 SERVIÇOS -->
+    <?php include_once  __DIR__ .'/modulos/content-1-servicos/index.php'; ?>
+    <!-- CONTENT 1 SERVIÇOS -->
+
+    <!-- CONTENT 2 SERVIÇOS -->
+    <?php include_once  __DIR__ .'/modulos/content-2-servicos/index.php'; ?>
+    <!-- CONTENT 2 SERVIÇOS -->
+
     <!-- CTA -->
     <?php include_once  __DIR__ .'/modulos/cta/index.php'; ?>
     <!-- CTA -->

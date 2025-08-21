@@ -5,6 +5,9 @@ namespace Core;
 class RoutesSite {
     private static $routes = [
         '/index'   => 'Início',
+        '/sobre-nos'   => 'Sobre Nós',
+        '/servicos'   => 'Serviços',
+        '/contato'   => 'Contato',
         '/' => 'Início'
     ];
 
