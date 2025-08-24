@@ -8,6 +8,10 @@
     // *** buscar banners
     use Repositories\BannersRepository;
     $banners = BannersRepository::getBanners();
+
+    // *** buscar serviços
+    use Repositories\ServicosRepository;
+    $servicos = ServicosRepository::getAll();
 ?>
 
 <!DOCTYPE html>

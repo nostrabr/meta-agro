@@ -5,7 +5,8 @@ namespace Core;
 class RoutesAdmin {
     private static $routes = [
         '/admin/dashboard'   => 'Contatos',
-        '/admin/banners'     => 'Banners'
+        '/admin/banners'     => 'Banners',
+        '/admin/servicos'    => 'Serviços'
     ];
 
     public static function getPageTitle() {
