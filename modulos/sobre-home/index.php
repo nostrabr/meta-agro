@@ -30,7 +30,7 @@
 
             <div class="mb-5 mb-lg-0 col-12 col-lg-6">
                 <div class="container-img-sobre-home">
-                    <img src='<?= $base_url ?>admin/assets/imagens/site-admin/preview.png'>
+                    <img src='<?= $base_url ?>/assets/imagens/site/img-home.png'>
                 </div>
             </div>
 

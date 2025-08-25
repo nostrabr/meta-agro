@@ -17,7 +17,7 @@
     <?php include_once  __DIR__ .'/modulos/header/index.php'; ?>
 
 </head>
-<body class="bg-0">
+<body class="bg-0" style="overflow-x: hidden !important;">
 
     <!-- WPP FLOAT -->
     <?php include_once  __DIR__ .'/modulos/wpp-float/index.php'; ?>
